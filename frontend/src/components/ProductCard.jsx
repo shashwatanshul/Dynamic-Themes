@@ -19,7 +19,7 @@ function ProductCard({ product }) {
         {/* PRODUCT INFO */}
         <h2 className="card-title text-lg font-semibold">{product.name}</h2>
         <p className="text-2xl font-bold text-primary">
-          &#8377{Number(product.price).toFixed(2)}
+          ₹{Number(product.price).toFixed(2)}
         </p>
 
         {/* CARD ACTIONS */}
